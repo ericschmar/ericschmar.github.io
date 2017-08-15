@@ -14,7 +14,7 @@ picture: assets/images/profile.jpg
 # and specify source (external or local).
 resume: true
 resume-external: true
-resume-url: https://google.com/?q=my+resume
+resume-url: assets/resume/resume.pdf
 
 url: https://ericschmar.github.io
 # your url: http://USERNAME.github.io
@@ -56,8 +56,8 @@ authors:
     johndoe:
         name: Eric Schmar
         bio: A Man who travels the world eating noodles
-        external-image: true
-        picture: https://1drv.ms/i/s!AhIAo5mDMH5igYUPb6mHsZPkpRVARQ
+        external-image: false
+        picture: assets/images/profile.jpg
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
