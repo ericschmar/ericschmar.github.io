@@ -17,7 +17,7 @@ resume-external: false
 resume-url: assets/resume/resume.pdf
 
 url: https://ericschmar.github.io/pages
-base_url: ericschmar.github.io/pages/
+base_url: https://ericschmar.github.io/pages
 # your url: http://USERNAME.github.io
 
 permalink: blog/:title/
