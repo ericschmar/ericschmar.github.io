@@ -8,12 +8,12 @@ description: A blog about technology and stuff related
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: pages/assets/images/profile.jpg
+picture: assets/images/profile.jpg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
 resume: true
-resume-external: true
+resume-external: false
 resume-url: assets/resume/resume.pdf
 
 url: https://ericschmar.github.io
@@ -100,4 +100,4 @@ gems:
   - jemoji
 
 
-base_url: /pages
+base_url: ericschmar.github.io/pages
