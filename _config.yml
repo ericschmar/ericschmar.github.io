@@ -20,7 +20,7 @@ url: https://ericschmar.github.io/pages
 base_url: ericschmar.github.io/pages/
 # your url: http://USERNAME.github.io
 
-permalink: /:title/
+permalink: blog/:title/
 
 # To enable google analytics, supply your token below
 # analytics-google: 'UA-MYANALYTICS'
@@ -37,7 +37,7 @@ disqus:
 # if you don't have any of social below, comment the line
 facebook: eric.schmar
 twitter: TheSchmartian
-google: ericschmar
+# google: ericschmar
 # instagram: myinstagram
 # pinterest: mypinterest
 # linkedin: mylinkedin
