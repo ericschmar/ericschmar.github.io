@@ -99,5 +99,5 @@ gems:
   - jekyll-feed
   - jemoji
 
-jekyll-mentions:
-    base_url: https://github.com/pages/
+
+base_url: https://ericschmar.github.io/pages
