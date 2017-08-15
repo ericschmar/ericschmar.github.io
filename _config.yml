@@ -8,15 +8,16 @@ description: A site about technology and stuff related
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: pages/assets/images/profile.jpg
+picture: assets/images/profile.jpg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
 resume: true
 resume-external: false
-resume-url: pages/assets/resume/resume.pdf
+resume-url: assets/resume/resume.pdf
 
-url: https://ericschmar.github.io
+url: https://ericschmar.github.io/pages
+base_url: ericschmar.github.io/pages/
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -65,8 +66,8 @@ authors:
 width: large
 
 # if you don't need pagination, comment the *paginate* configs below
-paginate: 5
-paginate_path: "blog/:num/"
+#paginate: 5
+#paginate_path: "blog/:num/"
 
 # if you don't need projects, comment the *projects* configs below
 #projects: true
@@ -98,6 +99,3 @@ gems:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-
-
-base_url: ericschmar.github.io/pages/
