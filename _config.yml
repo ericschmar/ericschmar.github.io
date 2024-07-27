@@ -1,9 +1,9 @@
 # main text of home
 name: Eric Schmar
-bio: A Man who travels the world eating noodles
+bio: Full Stack developer at Lawrence Livermore National Lab. Curiosity driven. 
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: My personal site.
 
 # if it's an external image, update below for true
 # better with square images
@@ -13,13 +13,14 @@ picture: assets/images/profile.jpg
 # If you want to include your resume, set to true
 # and specify source (external or local).
 resume: true
-resume-external: true
-resume-url: https://google.com/?q=my+resume
+resume-external: false
+resume-url: assets/resume/resume.pdf
 
 url: https://ericschmar.github.io
+base_url: https://ericschmar.github.io
 # your url: http://USERNAME.github.io
 
-permalink: /:title/
+permalink: blog/:title/
 
 # To enable google analytics, supply your token below
 # analytics-google: 'UA-MYANALYTICS'
@@ -34,9 +35,9 @@ disqus:
   categories:  # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-#facebook: myfacebook
-#twitter: mytwitter
-# google: mygoogle
+#facebook: eric.schmar
+#twitter: TheSchmartian
+# google: ericschmar
 # instagram: myinstagram
 # pinterest: mypinterest
 # linkedin: mylinkedin
@@ -55,9 +56,9 @@ email: ericschmar@gmail.com
 authors:
     johndoe:
         name: Eric Schmar
-        bio: A Man who travels the world eating noodles
-        external-image: true
-        picture: https://1drv.ms/i/s!AhIAo5mDMH5igYUPb6mHsZPkpRVARQ
+        bio: Full Stack developer at Lawrence Livermore National Lab. Curiosity driven. 
+        external-image: false
+        picture: assets/images/profile.jpg
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -65,14 +66,14 @@ authors:
 width: large
 
 # if you don't need pagination, comment the *paginate* configs below
-# paginate: 5
-# paginate_path: "blog/:num/"
+#paginate: 5
+#paginate_path: "blog/:num/"
 
 # if you don't need projects, comment the *projects* configs below
-projects: true
+#projects: true
 
 # if you don't need "about" or "blog", comment them out below
-about: true
+#about: true
 blog: true
 
 # do you want to show the "read time" of the posts?
@@ -82,7 +83,7 @@ read-time: true
 show-tags: true
 
 # related posts inside a post?
-related: true
+related: false
 
 # Display links for next and previous posts for the specified categories
 post-advance-links: [blog]
@@ -98,6 +99,3 @@ gems:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-
-jekyll-mentions:
-    base_url: https://github.com
